@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-// import { SpeedInsights } from '@vercel/speed-insights/react';
-// import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 import ThemeSwitcher from './components/ThemeSwitcher';
 import GenerateMnemonics from './components/GenerateMnemonics';
 import KeyCardContainer from './components/KeyCardContainer';
 import ViewAllButton from './components/AllWalletButton';
-import img from './assets/bgLessWallet.png';
+import img from './assets/logo.png';
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(true); // Dark mode by default
@@ -69,18 +69,18 @@ const App = () => {
       <footer className="p-4 text-center text-2xl">
         <span>Made By </span>
         <a
-          href="https://github.com/kitsunekode"
+          href="https://github.com/jatinchary"
           target="_blank"
           rel="noopener noreferrer"
           className={`${
             isDarkMode ? 'text-[#f2e8cf]' : 'text-blue-600'
           } hover:underline hover:scale-105 transition`}
         >
-          KitsuneKode
+          L jatin
         </a>
       </footer>
-      {/* <Analytics />
-      <SpeedInsights /> */}
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 };
