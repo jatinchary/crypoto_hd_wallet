@@ -30,7 +30,7 @@ const GenerateMnemonics = ({ isDarkMode, mnemonic, setMnemonic }) => {
             }
             // console.log(mnemonic);
           }}
-          className="bg-gradient-to-r from-blue-500 to-teal-500 text-white font-semibold py-2 px-6 rounded-lg shadow-lg hover:from-blue-600 hover:to-teal-600 transition duration-300 transform hover:scale-105"
+          className="bg-gradient-to-r from-green-500 to-teal-500 text-white font-semibold py-2 px-6 rounded-lg shadow-lg hover:from-green-600 hover:to-teal-600 transition duration-300 transform hover:scale-105"
         >
           Generate Secret Phrase
         </button>

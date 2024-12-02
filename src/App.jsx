@@ -73,7 +73,7 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
           className={`${
-            isDarkMode ? 'text-[#f2e8cf]' : 'text-blue-600'
+            isDarkMode ? 'text-[#f2e8cf]' : 'text-green-600'
           } hover:underline hover:scale-105 transition`}
         >
           L jatin

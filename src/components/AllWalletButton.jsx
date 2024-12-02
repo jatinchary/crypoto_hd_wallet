@@ -29,7 +29,7 @@ const ViewAllButton = ({
     >
       <motion.button
         className={`px-6 py-2 rounded-lg font-medium relative overflow-hidden ${
-          isDarkMode ? "bg-indigo-600 text-white" : "bg-indigo-500 text-white"
+          isDarkMode ? "bg-green-600 text-white" : "bg-green-500 text-white"
         }`}
         whileHover={{
           scale: 1.05,
